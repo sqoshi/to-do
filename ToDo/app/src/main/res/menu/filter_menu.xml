@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/overflowMenu"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="@string/filter_by"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/high_filter"
+                android:title="@string/high" />
+            <item
+                android:id="@+id/medium_filter"
+                android:title="@string/medium" />
+            <item
+                android:id="@+id/low_filter"
+                android:title="@string/low" />
+            <item
+                android:id="@+id/show_all"
+                android:title="@string/remove_filters" />
+        </menu>
+    </item>
+</menu>

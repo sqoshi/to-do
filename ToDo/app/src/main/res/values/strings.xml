@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ToDo</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="task_addition">task addition</string>
+    <string name="description">Description</string>
+    <string name="add">ADD</string>
+    <string name="taskname">TaskName</string>
+    <string name="update">update</string>
+    <string name="delete_task">Delete Task</string>
+    <string name="change_icon">Change Icon</string>
+    <string name="icon_preview">icon preview</string>
+    <dimen name="box_size">128dp</dimen>
+
+    <string name="selected_item">Selected priority:</string>
+    <string name="time">Time</string>
+    <string name="type_icon">type icon</string>
+    <string name="filter_by">Filter by</string>
+    <string name="high">HIGH</string>
+    <string name="medium">MEDIUM</string>
+    <string name="low">LOW</string>
+    <string name="remove_filters">Remove Filters</string>
+    <string name="calendar">Calendar</string>
+    <string name="sort_by">Sort by</string>
+    <string name="type">Type</string>
+    <string name="name">Name</string>
+    <string name="date">Date</string>
+    <string name="priority">Priority</string>
+
+    <string-array name="priorities">
+        <item>HIGH</item>
+        <item>MEDIUM</item>
+        <item>LOW</item>
+    </string-array>
+</resources>
